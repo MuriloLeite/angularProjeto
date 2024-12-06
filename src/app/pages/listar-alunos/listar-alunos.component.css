@@ -1,0 +1,54 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.error-message {
+  color: #f44336;
+  background-color: #f4f7f6;
+  padding: 1rem;
+  border-left: 4px solid #f44336;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+th {
+  background-color: #f4f7f6;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #f4f7f6;
+}
+
+button {
+  margin-right: 0.5rem;
+}
+
+.mat-raised-button.mat-primary {
+  background-color: #3498db;
+  color: white;
+}
+
+.mat-raised-button.mat-warn {
+  background-color: #f44336;
+  color: white;
+}

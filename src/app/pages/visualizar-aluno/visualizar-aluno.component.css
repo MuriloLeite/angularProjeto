@@ -1,0 +1,44 @@
+:host {
+  --primary-blue: #1976D2;
+  --light-blue: #E3F2FD;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.error-message {
+  color: #f44336;
+  text-align: center;
+  padding: 15px;
+  background-color: var(--light-blue);
+  border-left: 4px solid #f44336;
+}
+
+.aluno-details {
+  background-color: var(--light-blue);
+  border-radius: 8px;
+  padding: 20px;
+  border-left: 4px solid var(--primary-blue);
+}
+
+.aluno-details p {
+  margin: 10px 0;
+  color: #333;
+}
+
+.aluno-details p strong {
+  color: var(--primary-blue);
+  margin-right: 8px;
+}
+
+mat-dialog-actions button {
+  color: var(--primary-blue);
+  border: 1px solid var(--primary-blue);
+}
+
+mat-dialog-actions button:hover {
+  background-color: var(--light-blue);
+}
